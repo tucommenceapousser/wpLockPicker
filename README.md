@@ -9,13 +9,13 @@
 
 To install **wpLockPicker** simply clone this repo locally:
 ```
-git clone git@github.com:mihneamanolache/wpLockPicker.git
+git clone git@github.com:tucommenceapousser/wpLockPicker.git
 ```
 
 ## Running wpLockPicker
 In order to run **wpLockPicker**, navigate to it's direcotory ( `cd wpLockPicker` ) and type `node wpLockPicker --url='<YOUR_TARGET_URL>'`. **wpLockPicker** uses a pass.txt file by default, however you may specify the path to a different wordlist by using the `--pass` argument. Also, if your target is not using SSL, you may add the `--http` switch.
 
-
+http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
 
 ## Disclaimer
 The tool is not inteded for illegal purposes ( hence its single pass per thread approach ). You can use the tool on websites that you own or if you have the owner's approval. Do not attempt to illegaly use this tool on any website!
