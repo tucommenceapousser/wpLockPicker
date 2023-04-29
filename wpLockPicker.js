@@ -100,8 +100,8 @@ console.log(COLORS.cyan, `
                                    ░                            ░                               
                         
                         wpLockPicker: Bruteforce youur way into it.
-                                    by mihnaemanolache
-                           https://github.com/mihneamanolache/
+                                    by trhacknon
+                           https://github.com/tucommenceapousser/wpLockPicker
                                    `)
 const BASE_URL = arg['http'] ? `http://${await formatUrl(arg['url'])}` : `https://${await formatUrl(arg['url'])}` 
 let check = await testXMLRPC(BASE_URL)
